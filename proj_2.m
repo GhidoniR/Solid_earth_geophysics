@@ -34,5 +34,3 @@ function dydt = ode_func(y, T1, T2, T3, T4,P3)
     dydt(4) = P3*y(3)/T3-y(4)/T4;
     dydt(5) = y(4)/T4+(1-P3)*y(3)/T3;
 end
-
-
